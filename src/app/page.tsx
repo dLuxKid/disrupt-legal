@@ -195,7 +195,7 @@ export default function Home() {
           <h4 className="text-2xl md:text-[45px]/[60px] font-medium tracking-[-2%] text-black">
             Our Core Solutions
           </h4>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
             {[
               {
                 image: "/service-1.png",

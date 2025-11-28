@@ -57,7 +57,7 @@ export default function page() {
       <section className="flex items-center justify-center relative bg-primary">
         <div className="mw flex max-lg:flex-col gap-8 justify-between py-10 lg:py-20 px-4 md:px-10 lg:px-20">
           <div className="space-y-[13px] lg:max-w-[527px]">
-            <h4 className="text-2xl md:text-[50px]/[60px] text-secondary font-medium">
+            <h4 className="text-3xl md:text-[50px]/[60px] text-secondary font-medium">
               Our Approach
             </h4>
             <p className="text-sm/5 md:text-base/6 font-semibold text-white">
