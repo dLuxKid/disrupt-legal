@@ -66,7 +66,7 @@ export default function Footer() {
               <p className="text-black font-semibold text-lg">Quick Links</p>
               <div className="flex flex-col gap-2 text-body text-base/6 font-normal">
                 <Link href={"/"}>Home</Link>
-                <Link href={"/about"}>About</Link>
+                <Link href={"/about-us"}>About</Link>
                 <Link href={"/services"}>Services</Link>
                 <Link href={"/insights"}>Insights</Link>
                 <Link href={"/contact-us"}>Contact us</Link>

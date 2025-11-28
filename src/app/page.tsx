@@ -6,8 +6,8 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex flex-col">
-      <section className="w-full flex flex-col bg-[url('/home-hero-bg.jpg')] bg-cover bg-center bg-no-repeat min-h-screen relative">
-        <div className="absolute inset-0 bg-black/35 -z-10" />
+      <section className="flex flex-col bg-[url('/home-hero-bg.jpg')] bg-cover bg-center bg-no-repeat min-h-screen relative">
+        <div className="absolute inset-0 bg-black/35" />
         <Navbar />
         <div className="mw px-4 md:px-10 lg:px-20 py-20 lg:py-[160px] relative">
           <div className="w-full space-y-6 max-w-[684px]">
@@ -30,7 +30,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="w-full relative flex items-center justify-center">
+      <section className="relative flex items-center justify-center">
         <div className="mw flex flex-col items-center px-4 md:px-10 lg:px-20 py-10 lg:py-[60px] gap-8 lg:gap-16">
           <div className="max-w-[892px] text-center space-y-[18px]">
             <h4 className="text-3xl/10 md:text-[50px]/[60px] font-medium text-bg">
@@ -190,8 +190,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="w-full relative flex items-center justify-center">
-        <div className="mw flex flex-col gap-[50px] py-10 lg:py-16 px-4 md:px-10 lg:px-20">
+      <section className="relative flex items-center justify-center">
+        <div className="mw flex flex-col gap-8 lg:gap-[50px] py-10 lg:py-16 px-4 md:px-10 lg:px-20">
           <h4 className="text-2xl md:text-[45px]/[60px] font-medium tracking-[-2%] text-black">
             Our Core Solutions
           </h4>
@@ -259,7 +259,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="w-full relative bg-primary flex items-center justify-center">
+      <section className="relative bg-primary flex items-center justify-center">
         <Image
           src="/home-research-bg.png"
           alt="cta-bg"
@@ -329,7 +329,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="w-full relative flex items-center justify-center">
+      <section className="relative flex items-center justify-center">
         <div className="mw flex flex-col gap-[50px] py-10 lg:py-16 px-4 md:px-10 lg:px-20">
           <h4 className="text-2xl md:text-[45px]/[60px] font-medium tracking-[-2%] text-black">
             Case Studies

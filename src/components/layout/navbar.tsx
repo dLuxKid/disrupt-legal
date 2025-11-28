@@ -22,7 +22,7 @@ export default function Navbar() {
       <motion.nav
         initial={{ y: "-100vh" }}
         animate={{ y: 0 }}
-        className="hidden lg:flex mw items-center py-3 md:py-5 px-[30px] lg:px-20 w-full justify-between"
+        className="hidden lg:flex mw items-center py-2 px-[30px] lg:px-20 w-full justify-between"
       >
         <Link href={"/"}>
           <DisruptLegalLogo />
@@ -42,7 +42,7 @@ export default function Navbar() {
 
         <Link href={"/contact-us"}>
           <button
-            className="py-4 px-[18px] rounded-[5px] text-sm/[140%] font-semibold tracking-[-2%] bg-cta-btn w-[204px]"
+            className="py-4 px-[18px] rounded-[5px] text-sm/[140%] font-semibold tracking-[-2%] bg-cta-btn text-white w-[204px]"
             title="contact us"
             aria-label="contact us"
           >
@@ -53,10 +53,10 @@ export default function Navbar() {
       <motion.nav
         initial={{ y: "-100vh" }}
         animate={{ y: 0 }}
-        className="flex lg:hidden mw items-center bg-[#002245] backdrop-blur-[50px] py-3 px-4 w-full justify-between"
+        className="flex lg:hidden items-center py-3 px-4 w-full justify-between"
       >
         <Link href={"/"}>
-          <DisruptLegalLogo />
+          <DisruptLegalLogo className="w-[92px] h-[65px]" />
         </Link>
 
         <button onClick={toggleMenu}>
@@ -95,13 +95,13 @@ export default function Navbar() {
             initial={{ x: "-100%", opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             // exit={{ x: "-100%", opacity: 0 }}
-            className="fixed inset-0 z-50 flex flex-col bg-[#002245] px-4 pt-6"
+            className="fixed inset-0 z-999 flex flex-col bg-white h-screen px-4 pt-6"
           >
             <div className="flex justify-end">
               <button
                 onClick={toggleMenu}
                 aria-label="Close menu"
-                className="text-[#FFFFFFCC] cursor-pointer"
+                className="text-black cursor-pointer"
                 type="button"
               >
                 <IoCloseOutline size={28} />
@@ -110,7 +110,7 @@ export default function Navbar() {
 
             {/* mobile menu items */}
             <div className="my-auto">
-              <div className="flex flex-col text-center gap-6 font-semibold text-white text-base">
+              <div className="flex flex-col text-center gap-6 font-semibold text-black text-base">
                 {navItems.map((item) => (
                   <Link
                     key={item.href}
@@ -126,7 +126,7 @@ export default function Navbar() {
               <div className="flex flex-col gap-3 mt-12 text-center">
                 <Link href="/contact-us">
                   <button
-                    className="py-4 px-[18px] rounded-[5px] text-sm/[140%] font-semibold tracking-[-2%] bg-cta-btn w-[204px]"
+                    className="py-4 px-[18px] rounded-[5px] text-sm/[140%] font-semibold tracking-[-2%] bg-cta-btn text-white w-[204px]"
                     title="contact us"
                     aria-label="contact us"
                   >
