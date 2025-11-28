@@ -18,7 +18,7 @@ export default function Navbar() {
   }
 
   return (
-    <header className="flex flex-col justify-center relative backdrop-blur-[20px]">
+    <header className="flex flex-col relative z-999 backdrop-blur-[20px]">
       <motion.nav
         initial={{ y: "-100vh" }}
         animate={{ y: 0 }}
@@ -87,57 +87,58 @@ export default function Navbar() {
             />
           </svg>
         </button>
-      </motion.nav>
 
-      <AnimatePresence>
-        {isMenuOpen && (
-          <motion.div
-            initial={{ x: "-100%", opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            // exit={{ x: "-100%", opacity: 0 }}
-            className="fixed inset-0 z-999 flex flex-col bg-white h-screen px-4 pt-6"
-          >
-            <div className="flex justify-end">
-              <button
-                onClick={toggleMenu}
-                aria-label="Close menu"
-                className="text-black cursor-pointer"
-                type="button"
-              >
-                <IoCloseOutline size={28} />
-              </button>
-            </div>
+        <AnimatePresence>
+          {isMenuOpen && (
+            <motion.div
+              initial={{ x: "-100%", opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              exit={{ x: "-100%", opacity: 0 }}
+              transition={{ duration: 0.3, ease: "easeInOut" }}
+              className="fixed inset-0 z-50 flex flex-col h-screen bg-white px-4 pt-6"
+            >
+              <div className="flex justify-end">
+                <button
+                  onClick={toggleMenu}
+                  aria-label="Close menu"
+                  className="text-black cursor-pointer"
+                  type="button"
+                >
+                  <IoCloseOutline size={28} />
+                </button>
+              </div>
 
-            {/* mobile menu items */}
-            <div className="my-auto">
-              <div className="flex flex-col text-center gap-6 font-semibold text-black text-base">
-                {navItems.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    onClick={toggleMenu}
-                    className={`${pathname === item.href ? "uppercase" : ""}`}
-                  >
-                    {item.label}
+              {/* mobile menu items */}
+              <div className="my-auto">
+                <div className="flex flex-col text-center gap-6 font-semibold text-black text-base">
+                  {navItems.map((item) => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      onClick={toggleMenu}
+                      className={`${pathname === item.href ? "uppercase" : ""}`}
+                    >
+                      {item.label}
+                    </Link>
+                  ))}
+                </div>
+
+                <div className="flex flex-col gap-3 mt-12 text-center">
+                  <Link href="/contact-us">
+                    <button
+                      className="py-4 px-[18px] rounded-[5px] text-sm/[140%] font-semibold tracking-[-2%] bg-cta-btn text-white w-[204px]"
+                      title="contact us"
+                      aria-label="contact us"
+                    >
+                      Contact Us
+                    </button>
                   </Link>
-                ))}
+                </div>
               </div>
-
-              <div className="flex flex-col gap-3 mt-12 text-center">
-                <Link href="/contact-us">
-                  <button
-                    className="py-4 px-[18px] rounded-[5px] text-sm/[140%] font-semibold tracking-[-2%] bg-cta-btn text-white w-[204px]"
-                    title="contact us"
-                    aria-label="contact us"
-                  >
-                    Contact Us
-                  </button>
-                </Link>
-              </div>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </motion.nav>
     </header>
   );
 }
