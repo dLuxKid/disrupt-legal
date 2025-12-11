@@ -37,8 +37,33 @@ export default function page() {
             Latest Post
           </h4>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {Array.from({ length: 9 }).map((_, i) => (
-              <div
+            {[
+              {
+                tag: "Technology",
+                title:
+                  "Regulatory Readiness as a Competitive Advantage in Web3",
+                author: "Disrupt Legal",
+                date: "August 20, 2025",
+              },
+              {
+                tag: "Technology",
+                title:
+                  "The Compliance Bottlenecks That Stall Fintech Growth — And How High-Growth Teams Fix Them",
+                author: "Disrupt Legal",
+                date: "August 20, 2025",
+              },
+              {
+                tag: "Technology",
+                title:
+                  "Cyber Governance Is Now a Board-Level Business Strategy: Here’s Why",
+                author: "Elizabeth Slavin",
+                date: "August 20, 2022",
+              },
+            ].map((item, i) => (
+              <Link
+                href={
+                  "/insights/regulatory-readiness-as-a-competitive-advantage-in-web3"
+                }
                 key={i}
                 className="flex flex-col gap-4 p-4 bg-white border border-[#E8E8EA] rounded-[12px]"
               >
@@ -49,19 +74,18 @@ export default function page() {
                   height={252}
                   className="w-full h-auto rounded-[6px] bg-contain bg-center bg-no-repeat"
                 />
-                <div className="space-y-5 p-2">
+                <div className="flex flex-col gap-5 p-2 h-full">
                   <div className="space-y-4">
                     <div className="py-1 px-2.5 rounded-[6px] bg-[#4B6BFB0D] w-fit">
                       <p className="text-secondary text-xs sm:text-[15px]/[21px] font-medium">
-                        Technology
+                        {item.tag}
                       </p>
                     </div>
                     <p className="text-[#181A2A] font-semibold text-xl/6 md:text-[25px]/[29px]">
-                      The Impact of Technology on the Workplace: How Technology
-                      is Changing
+                      {item.title}
                     </p>
                   </div>
-                  <div className="flex gap-3 md:gap-5 items-center text-sm/5 md:text-base/6 text-[#97989F]">
+                  <div className="flex gap-3 md:gap-5 items-center text-sm/5 md:text-base/6 text-[#97989F] mt-auto">
                     <div className="flex items-center gap-3">
                       <Image
                         src={"/author.png"}
@@ -70,12 +94,12 @@ export default function page() {
                         height={37}
                         className="rounded-full"
                       />
-                      <p>Tracey Wilson</p>
+                      <p>{item.author}</p>
                     </div>
-                    <p>August 20, 2022</p>
+                    <p>{item.date}</p>
                   </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

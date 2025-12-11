@@ -4,16 +4,16 @@ import Navbar from "@/components/layout/navbar";
 export default function page() {
   return (
     <main className="flex flex-col">
-      <section className="flex flex-col bg-[url('/blockchain-hero-bg.jpg')] text-center bg-cover bg-center bg-no-repeat relative">
+      <section className="flex flex-col bg-[url('/fintech-hero-bg.jpg')] text-center bg-cover bg-center bg-no-repeat relative">
         <div className="absolute inset-0 bg-black/45" />
         <Navbar />
         <div className="mw px-4 md:px-10 lg:px-20 py-[170px] lg:py-[250px] relative flex flex-col items-center justify-center gap-1 size-full">
           <h1 className="text-white font-bold text-4xl md:text-[55px]/[65px] lg:text-[60px]/[75px]">
-            Blockchain Compliance
+            Fintech Advisory
           </h1>
           <p className="text-base/6 md:text-lg/[28px] text-white max-w-[775px]">
-            Helping businesses build trust, stability, and regulatory readiness
-            in the evolving digital asset ecosystem.
+            Transform financial innovation into compliant, trusted, and scalable
+            products ready for market and investment.
           </p>
         </div>
       </section>
@@ -26,182 +26,176 @@ export default function page() {
               Overview
             </h2>
             <p className="text-black/80 text-lg/[28px] md:text-[22px]/8">
-              Blockchain is changing how we store value, spend money, and trust
-              systems but without the right legal strategy innovation can
-              quickly turn into liability. A product that feels harmless to your
-              team can look like a high-risk financial instrument to regulators.
-              We help you stay compliant from Day 1, avoiding shutdown threats,
-              banking restrictions, and investor concerns, so you can build
-              boldly while staying fully protected.
+              In fintech, having a great product doesn&apos;t guarantee
+              permission to operate. One missing approval can freeze payments,
+              block integrations, or delay launch for months. Banks and
+              regulators don&apos;t invest in ideas, they invest in trust,
+              structure, and control. We help fintech founders secure that
+              trust. From licensing to compliance alignment, we turn regulatory
+              challenges into a clear path to launch and scale.
             </p>
           </div>
           <div className="space-y-6">
             <h2 className="text-2xl/8 md:text-[40px]/[50px] font-bold">
               What We Do
             </h2>
-            <h6 className="text-xl/9 md:text-[28px]/[50px] text-black font-bold">
-              1. Regulatory Assessment & Roadmap
-            </h6>
-            <div className="flex flex-col gap-1 text-black/80 text-lg/9 md:text-[22px]/12 [&>p]:pl-2 [&>p]:md:pl-4">
-              <p className="flex items-center gap-1.5">
-                <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                We translate complex crypto laws into clear actions you can
-                execute.
-              </p>
-              <p className="flex items-center gap-1.5">
-                <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Identify what regulations apply to your token or platform
-              </p>
-              <p className="flex items-center gap-1.5">
-                <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Reveal red-flag risks before they affect launch
-              </p>
-              <p className="flex items-center gap-1.5">
-                <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Provide a founder-friendly compliance roadmap
-              </p>
-              <p className="flex items-center gap-1.5">
-                <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Align with crypto, payments, and securities rules
-              </p>
-              <p className="flex items-center gap-1.5">
-                <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                You&apos;ll know exactly what is safe and what needs fixing
-                fast.
-              </p>
-            </div>
-          </div>
-          <div className="space-y-6">
             <div className="space-y-1">
               <h6 className="text-xl/9 md:text-[28px]/[50px] text-black font-bold">
-                2. Business-Fit Compliance Design
+                1. Licensing Strategy & Approvals
               </h6>
               <p className="text-black text-lg/[28px] md:text-[22px]/[30px]">
-                We create compliance structures that enhance growth instead of
-                blocking it. This covers:
+                We help you understand what licenses you need and get them
+                faster. This includes:
               </p>
             </div>
-
             <div className="flex flex-col gap-1 text-black/80 text-lg/9 md:text-[22px]/12 [&>p]:pl-2 [&>p]:md:pl-4">
               <p className="flex items-center gap-1.5">
                 <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Operational and governance frameworks
+                Licensing gap assessment
               </p>
               <p className="flex items-center gap-1.5">
                 <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Licensing-preparation for exchanges, wallets & products
+                Application support Plus documentation
               </p>
               <p className="flex items-center gap-1.5">
                 <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Controls for digital assets, custody, and transactions
+                Regulator engagement guidance
               </p>
               <p className="flex items-center gap-1.5">
                 <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Embedded processes, not heavy paperwork
+                Approval roadmap built around your business model
               </p>
-
               <span className="text-black/80 text-lg/[28px] md:text-[22px]/8">
-                Designed around speed, user experience, and scale.
+                Launch delays kill momentum, we keep things moving.
               </span>
             </div>
           </div>
           <div className="space-y-6">
             <div className="space-y-1">
               <h6 className="text-xl/9 md:text-[28px]/[50px] text-black font-bold">
-                3. Product & Token Review
+                2. Payments & Digital Finance Compliance
               </h6>
               <p className="text-black text-lg/[28px] md:text-[22px]/[30px]">
-                We ensure your product design won&apos;t trigger unintended
-                regulation.
+                We align your systems with the rules that protect customers and
+                unlock trust. This covers:
               </p>
             </div>
-            <div className="flex flex-col gap-1 text-black/80 text-lg/9 md:text-[22px]/12 [&>p]:pl-2 [&>p]:md:pl-4">
-              <p className="flex items-center gap-1.5">
-                <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Token classification (utility vs security)
-              </p>
-              <p className="flex items-center gap-1.5">
-                <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                NFT, DeFi, DAO & staking model evaluation
-              </p>
-              <p className="flex items-center gap-1.5">
-                <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Platform launch readiness checks
-              </p>
-              <p className="flex items-center gap-1.5">
-                <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Consumer protection and disclosure strategy
-              </p>
-            </div>
-          </div>
-          <div className="space-y-6">
-            <h6 className="text-xl/9 md:text-[28px]/[50px] text-black font-bold">
-              4. Governance & Risk Protection
-            </h6>
 
             <div className="flex flex-col gap-1 text-black/80 text-lg/9 md:text-[22px]/12 [&>p]:pl-2 [&>p]:md:pl-4">
               <p className="flex items-center gap-1.5">
                 <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                We help founders make brave moves without exposing the business.
+                AML/KYC program design
               </p>
               <p className="flex items-center gap-1.5">
                 <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Risk policies for operations, data, and finance
+                Fraud detection and monitoring controls
               </p>
               <p className="flex items-center gap-1.5">
                 <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Partner & regulator-friendly documentation
+                Fair customer treatment policies
               </p>
               <p className="flex items-center gap-1.5">
                 <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Board advisory on compliance decisions
-              </p>
-              <p className="flex items-center gap-1.5">
-                <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Strategies for bank and exchange relationships
-              </p>
-              <p className="flex items-center gap-1.5">
-                <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                More trust equals more access to partners, investors, and
-                liquidity.
+                Real-world operational compliance
               </p>
 
               <span className="text-black/80 text-lg/[28px] md:text-[22px]/8">
-                This ensures your platform earns trust from users, partners, and
-                regulators.
+                Better compliance makes stronger banking and partnership access.
               </span>
             </div>
           </div>
           <div className="space-y-6">
             <div className="space-y-1">
               <h6 className="text-xl/9 md:text-[28px]/[50px] text-black font-bold">
-                5. Documentation That Defends You
+                3. Governance & Operational Readiness
               </h6>
               <p className="text-black text-lg/[28px] md:text-[22px]/[30px]">
-                We prepare clear, actionable documentation for internal and
-                external stakeholders, including:
+                A product that scales must have a business that can scale with
+                it.
+              </p>
+            </div>
+            <div className="flex flex-col gap-1 text-black/80 text-lg/9 md:text-[22px]/12 [&>p]:pl-2 [&>p]:md:pl-4">
+              <p className="flex items-center gap-1.5">
+                <span className="size-1 bg-black/80 rounded-full shrink-0" />A
+                product that scales must have a business that can scale with it.
+              </p>
+              <p className="flex items-center gap-1.5">
+                <span className="size-1 bg-black/80 rounded-full shrink-0" />
+                Internal controls and reporting frameworks
+              </p>
+              <p className="flex items-center gap-1.5">
+                <span className="size-1 bg-black/80 rounded-full shrink-0" />
+                Clear roles and accountability structures
+              </p>
+              <p className="flex items-center gap-1.5">
+                <span className="size-1 bg-black/80 rounded-full shrink-0" />
+                Playbooks for teams and onboarding
+              </p>
+              <p className="flex items-center gap-1.5">
+                <span className="size-1 bg-black/80 rounded-full shrink-0" />
+                Audit-ready documentation
+              </p>
+            </div>
+          </div>
+          <div className="space-y-6">
+            <div className="space-y-1">
+              <h6 className="text-xl/9 md:text-[28px]/[50px] text-black font-bold">
+                4. Banking & Partner Integration Support
+              </h6>
+              <p className="text-black text-lg/[28px] md:text-[22px]/[30px]">
+                We help you pass strict due-diligence checks from institutional
+                partners. We help organizations set up:
+              </p>
+            </div>
+
+            <div className="flex flex-col gap-1 text-black/80 text-lg/9 md:text-[22px]/12 [&>p]:pl-2 [&>p]:md:pl-4">
+              <p className="flex items-center gap-1.5">
+                <span className="size-1 bg-black/80 rounded-full shrink-0" />
+                Documentation banks expect
+              </p>
+              <p className="flex items-center gap-1.5">
+                <span className="size-1 bg-black/80 rounded-full shrink-0" />
+                Risk representation and support
+              </p>
+              <p className="flex items-center gap-1.5">
+                <span className="size-1 bg-black/80 rounded-full shrink-0" />
+                Regulatory-response playbooks
+              </p>
+              <p className="flex items-center gap-1.5">
+                <span className="size-1 bg-black/80 rounded-full shrink-0" />
+                Partner confidence boosting frameworks
+              </p>
+
+              <span className="text-black/80 text-lg/[28px] md:text-[22px]/8">
+                More approvals. Less friction. Faster integrations.
+              </span>
+            </div>
+          </div>
+          <div className="space-y-6">
+            <div className="space-y-1">
+              <h6 className="text-xl/9 md:text-[28px]/[50px] text-black font-bold">
+                5. Cross-Border Expansion Advisory
+              </h6>
+              <p className="text-black text-lg/[28px] md:text-[22px]/[30px]">
+                Ready to scale outside one market? Do it with legal certainty.
               </p>
             </div>
             <div className="flex flex-col gap-1 text-black/80 text-lg/9 md:text-[22px]/12 [&>p]:pl-2 [&>p]:md:pl-4">
               <p className="flex items-center gap-1.5">
                 <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Well-structured documentation is your first line of defense.
+                Regulatory mapping for target markets
               </p>
               <p className="flex items-center gap-1.5">
                 <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Terms & conditions people actually understand
+                Multi-region compliance alignment
               </p>
               <p className="flex items-center gap-1.5">
                 <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Privacy, AUP, and risk disclosure policies
+                Licensing requirements clarified
               </p>
               <p className="flex items-center gap-1.5">
                 <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Internal compliance playbooks
-              </p>
-              <p className="flex items-center gap-1.5">
-                <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Continuous updates as laws evolve
+                Risk-reduced go-to-market plan
               </p>
             </div>
           </div>
@@ -213,26 +207,26 @@ export default function page() {
             <div className="flex flex-col gap-1 text-black/80 text-lg/9 md:text-[22px]/12 [&>p]:pl-2 [&>p]:md:pl-4">
               <p className="flex items-center gap-1.5">
                 <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Web3 startups building wallets, tokens, DeFi, NFTs
+                Digital banks, payments, wallets, remittance, and lending
+                platforms
               </p>
               <p className="flex items-center gap-1.5">
                 <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Crypto exchanges and digital asset brokers
+                Growth-stage fintechs entering new jurisdictions
               </p>
               <p className="flex items-center gap-1.5">
                 <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Fintechs adding blockchain payment rails
+                Traditional finance firms shifting into digital services
               </p>
               <p className="flex items-center gap-1.5">
                 <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Institutional players exploring tokenisation
+                Investors validating regulatory readiness pre-funding
               </p>
-              <span className="text-black/80 text-lg/9 md:text-[22px]/12">
-                If you&apos;re building anything on-chain and wondering:
-              </span>
-              <span className="text-black/80 text-lg/9 md:text-[22px]/12">
-                “Are we in compliance?”, this is for you.
-              </span>
+              <p className="flex items-center gap-1.5">
+                <span className="size-1 bg-black/80 rounded-full shrink-0" />
+                If your roadmap includes regulators, banks, or expansion, this
+                is built for you.
+              </p>
             </div>
           </div>
           <div className="space-y-6">
@@ -243,23 +237,23 @@ export default function page() {
             <div className="flex flex-col gap-1 text-black/80 text-lg/9 md:text-[22px]/12 [&>p]:pl-2 [&>p]:md:pl-4">
               <p className="flex items-center gap-1.5">
                 <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Clear compliance structure that scales globally
+                Investor-ready compliance foundation
               </p>
               <p className="flex items-center gap-1.5">
                 <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Reduced enforcement + banking risk
+                Lower operational plus legal risk
               </p>
               <p className="flex items-center gap-1.5">
                 <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Faster launches and fundraising
+                Faster approvals from banks and regulators
               </p>
               <p className="flex items-center gap-1.5">
                 <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                Stronger trust from users, partners & regulators
+                Stronger partner with customer trust
               </p>
               <p className="flex items-center gap-1.5">
                 <span className="size-1 bg-black/80 rounded-full shrink-0" />
-                No distractions so founders stay focused on innovation
+                Scalable systems built for real-world growth
               </p>
             </div>
           </div>

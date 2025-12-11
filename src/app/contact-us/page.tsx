@@ -148,10 +148,10 @@ export default function page() {
                     <path
                       d="M35.3337 22L30.117 26.1667C28.4003 27.5333 25.5837 27.5333 23.867 26.1667L18.667 22"
                       stroke="#1489CF"
-                      stroke-width="2.5"
+                      strokeWidth="2.5"
                       stroke-miterlimit="10"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                 </div>
