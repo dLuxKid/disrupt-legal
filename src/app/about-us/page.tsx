@@ -5,7 +5,7 @@ import { openSans } from "../fonts";
 export default function page() {
   return (
     <main className="flex flex-col gap-5">
-      <section className="flex flex-col bg-[url('/about-hero-bg.jpg')] bg-cover bg-center bg-no-repeat min-h-screen relative">
+      <section className="flex flex-col bg-[url('/about-hero-bg.webp')] bg-cover bg-center bg-no-repeat min-h-screen relative">
         <div className="absolute inset-0 bg-black/55" />
         <Navbar />
         <div className="mw px-4 md:px-10 lg:px-20 py-20 lg:py-[170px] relative">

@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex flex-col">
-      <section className="flex flex-col bg-[url('/home-hero-bg.jpg')] bg-cover bg-center bg-no-repeat min-h-screen relative">
+      <section className="flex flex-col bg-[url('/home-hero-bg.webp')] bg-cover bg-center bg-no-repeat min-h-screen relative">
         <div className="absolute inset-0 bg-black/35" />
         <Navbar />
         <div className="mw px-4 md:px-10 lg:px-20 py-20 lg:py-[160px] relative">
@@ -153,7 +153,7 @@ export default function Home() {
                     <g clipPath="url(#clip0_95_371)">
                       <path
                         fillRule="evenodd"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                         d="M16.2498 15.0358V12.7442C16.2498 8.94722 19.3279 5.86917 23.1248 5.86917H36.8748C40.6719 5.86917 43.7498 8.94722 43.7498 12.7442V15.0358H48.3332C52.1302 15.0358 55.2082 18.1139 55.2082 21.9108V49.4108C55.2082 53.2079 52.1302 56.2858 48.3332 56.2858H11.6665C7.86956 56.2858 4.7915 53.2079 4.7915 49.4108V21.9108C4.7915 18.1139 7.86956 15.0358 11.6665 15.0358H16.2498ZM20.8332 12.7442C20.8332 11.4785 21.8592 10.4525 23.1248 10.4525H36.8748C38.1405 10.4525 39.1665 11.4785 39.1665 12.7442V15.0358H20.8332V12.7442ZM48.0628 19.6192H11.937L17.0328 29.8107C17.4209 30.5871 18.2145 31.0775 19.0825 31.0775H27.7082C27.7082 29.8118 28.7341 28.7858 29.9998 28.7858C31.2655 28.7858 32.2915 29.8118 32.2915 31.0775H40.9171C41.7852 31.0775 42.5788 30.5871 42.967 29.8107L48.0628 19.6192ZM27.7082 35.6608H19.0825C16.4784 35.6608 14.0979 34.1896 12.9333 31.8603L9.37484 24.7435V49.4108C9.37484 50.6765 10.4009 51.7025 11.6665 51.7025H48.3332C49.5989 51.7025 50.6248 50.6765 50.6248 49.4108V24.7435L47.0663 31.8603C45.9017 34.1896 43.5211 35.6608 40.9171 35.6608H32.2915C32.2915 36.9265 31.2655 37.9525 29.9998 37.9525C28.7341 37.9525 27.7082 36.9265 27.7082 35.6608Z"
                         fill="#0A1931"
                       />
@@ -198,35 +198,35 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
             {[
               {
-                image: "/service-1.png",
+                image: "/service-1.webp",
                 tag: "Blockchain",
                 title:
                   "Navigating digital ownership and tokenisation with legal precision",
                 text: "We help blockchain and crypto businesses stay compliant through audits, global licensing, and smart contract assurance.",
               },
               {
-                image: "/service-2.png",
+                image: "/service-2.webp",
                 tag: "Fintech",
                 title:
                   "Building financial innovation on a compliant foundation",
                 text: "From licensing to global outsourcing, we guide fintechs and digital finance platforms through complex regulatory landscapes.",
               },
               {
-                image: "/service-3.png",
+                image: "/service-3.webp",
                 tag: "Data & Security",
                 title:
                   "Protecting digital systems through governance and compliance",
                 text: "We deliver ISO 27001:2022 audits, GDPR compliance, and risk assessments for data-driven organisations.",
               },
               {
-                image: "/service-4.png",
+                image: "/service-4.webp",
                 tag: "Policy",
                 title:
                   "Shaping policy and regulation for a digital-first world",
                 text: "We advise governments and institutions on blockchain integration, AI regulation, and sustainability-focused legal frameworks.",
               },
               {
-                image: "/service-5.png",
+                image: "/service-5.webp",
                 tag: "Compliance",
                 title:
                   "Custom anti-money laundering and risk frameworks for digital assets",
@@ -261,7 +261,7 @@ export default function Home() {
       </section>
       <section className="relative bg-primary flex items-center justify-center">
         <Image
-          src="/home-research-bg.png"
+          src="/home-research-bg.webp"
           alt="cta-bg"
           fill
           className="object-cover bg-no-repeat absolute inset-0"
@@ -289,7 +289,7 @@ export default function Home() {
         <div className="relative mw flex items-center justify-between gap-8 max-lg:flex-col px-4 md:px-10 lg:px-20 py-16 lg:py-[127px]">
           <div className="lg:max-w-[602px] lg:max-h-[481px]">
             <Image
-              src="/research-robot.png"
+              src="/research-robot.webp"
               alt="robot"
               width={602}
               height={481}
@@ -357,13 +357,13 @@ export default function Home() {
                 className="flex flex-col justify-end h-[496px] gap-4 px-3 md:px-[18px] pb-8 md:pb-14 relative"
               >
                 <Image
-                  src={`/case-study-${i + 1}.jpg`}
+                  src={`/case-study-${i + 1}.webp`}
                   fill
                   alt={item.title}
                   className="object-cover bg-no-repeat absolute inset-0"
                 />
                 <div className="absolute inset-0 bg-black/50" />
-                <div className="absolute inset-0 bg-[url('/lines.png')] bg-fill bg-center bg-no-repeat" />
+                <div className="absolute inset-0 bg-[url('/lines.webp')] bg-fill bg-center bg-no-repeat" />
 
                 <div className="relative space-y-[18px]">
                   <h6 className="text-white text-2xl md:text-[35px] leading-[100%] font-medium">

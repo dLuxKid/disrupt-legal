@@ -4,7 +4,7 @@ import { jakarta, montserrat } from "../fonts";
 export default function page() {
   return (
     <main className="flex flex-col gap-[50px]">
-      <section className="flex flex-col bg-[url('/contact-hero-bg.jpg')] text-center bg-cover bg-center bg-no-repeat relative">
+      <section className="flex flex-col bg-[url('/contact-hero-bg.webp')] text-center bg-cover bg-center bg-no-repeat relative">
         <div className="absolute inset-0 bg-black/35" />
         <Navbar />
         <div className="mw px-4 md:px-10 lg:px-20 py-[170px] md:py-[250px] lg:py-[356px] relative flex flex-col items-center justify-center gap-2.5 size-full">
@@ -149,7 +149,7 @@ export default function page() {
                       d="M35.3337 22L30.117 26.1667C28.4003 27.5333 25.5837 27.5333 23.867 26.1667L18.667 22"
                       stroke="#1489CF"
                       strokeWidth="2.5"
-                      stroke-miterlimit="10"
+                      strokeMiterlimit="10"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     />

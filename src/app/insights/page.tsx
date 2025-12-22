@@ -6,7 +6,7 @@ import { workSans } from "../fonts";
 export default function page() {
   return (
     <main className="flex flex-col">
-      <section className="flex flex-col bg-[url('/blog-hero-bg.jpg')] bg-cover bg-center bg-no-repeat min-h-screen relative">
+      <section className="flex flex-col bg-[url('/blog-hero-bg.webp')] bg-cover bg-center bg-no-repeat min-h-screen relative">
         <div className="absolute inset-0 bg-black/40" />
         <Navbar />
         <div className="mw px-4 md:px-10 lg:px-20 py-20 lg:py-[160px] relative">
@@ -68,7 +68,7 @@ export default function page() {
                 className="flex flex-col gap-4 p-4 bg-white border border-[#E8E8EA] rounded-[12px]"
               >
                 <Image
-                  src={`/blog-${i + 1}.png`}
+                  src={`/blog-${i + 1}.webp`}
                   alt={"blog thumbnail"}
                   width={378}
                   height={252}
@@ -88,7 +88,7 @@ export default function page() {
                   <div className="flex gap-3 md:gap-5 items-center text-sm/5 md:text-base/6 text-[#97989F] mt-auto">
                     <div className="flex items-center gap-3">
                       <Image
-                        src={"/author.png"}
+                        src={"/author.webp"}
                         alt="author"
                         width={37}
                         height={37}

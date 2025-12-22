@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function page() {
   return (
     <main className="flex flex-col gap-4">
-      <section className="flex flex-col bg-[url('/services-hero-bg.jpg')] bg-cover bg-center bg-no-repeat min-h-screen relative">
+      <section className="flex flex-col bg-[url('/services-hero-bg.webp')] bg-cover bg-center bg-no-repeat min-h-screen relative">
         <div className="absolute inset-0 bg-black/20" />
         <Navbar />
         <div className="mw px-4 md:px-10 lg:px-20 py-20 lg:py-[160px] relative">
@@ -52,30 +52,30 @@ export default function page() {
             {[
               {
                 href: "/services/blockchain-compliance",
-                image: "/service-1.png",
+                image: "/service-1.webp",
                 tag: "Blockchain Compliance",
                 text: "Compliance frameworks, audits, and regulatory support for digital assets, tokenisation, and blockchain products.",
               },
               {
                 href: "/services/fintech-advisory",
-                image: "/service-2.png",
+                image: "/service-2.webp",
                 tag: "Fintech Advisory",
                 text: "Regulatory guidance and compliance alignment for fintech products, payments, and digital financial services.",
               },
               {
                 href: "/services/data-and-cyber-governance",
-                image: "/service-3.png",
+                image: "/service-3.webp",
                 tag: "Data & Cyber Governance",
                 text: "Data protection, ISO certification support, cybersecurity compliance, and organisational governance frameworks.",
               },
               {
                 href: "/services/aml-frameworks",
-                image: "/service-4.png",
+                image: "/service-4.webp",
                 tag: "AML Frameworks",
                 text: "Custom AML programs, risk assessments, and compliance structures for fintech and digital asset ecosystems.",
               },
               {
-                image: "/service-5.png",
+                image: "/service-5.webp",
                 href: "/services/policy-and-regulatory-insights",
                 tag: "Policy & Regulatory Insights",
                 text: "Policy research, digital regulation strategy, and advisory for organisations shaping technology governance.",

@@ -4,7 +4,7 @@ import Navbar from "@/components/layout/navbar";
 export default function page() {
   return (
     <main className="flex flex-col">
-      <section className="flex flex-col bg-[url('/data-hero-bg.jpg')] text-center bg-cover bg-center bg-no-repeat relative">
+      <section className="flex flex-col bg-[url('/data-hero-bg.webp')] text-center bg-cover bg-center bg-no-repeat relative">
         <div className="absolute inset-0 bg-black/45" />
         <Navbar />
         <div className="mw px-4 md:px-10 lg:px-20 py-[170px] lg:py-[250px] relative flex flex-col items-center justify-center gap-1 size-full">

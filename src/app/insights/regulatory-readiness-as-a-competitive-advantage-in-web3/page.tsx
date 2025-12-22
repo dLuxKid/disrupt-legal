@@ -4,7 +4,7 @@ import Navbar from "@/components/layout/navbar";
 export default function page() {
   return (
     <main className="flex flex-col">
-      <section className="flex flex-col bg-[url('/regulatory-hero-bg.jpg')] text-center bg-cover bg-center bg-no-repeat relative">
+      <section className="flex flex-col bg-[url('/regulatory-hero-bg.webp')] text-center bg-cover bg-center bg-no-repeat relative">
         <div className="absolute inset-0 bg-black/45" />
         <Navbar />
         <div className="mw px-4 md:px-10 lg:px-20 py-[170px] lg:py-[220px] relative flex flex-col items-center justify-center gap-1 size-full">
@@ -312,7 +312,7 @@ export default function page() {
                 key={i}
                 className="h-[350px] w-full rounded-[5px] flex flex-col justify-between gap-8 p-6 md:p-8"
                 style={{
-                  backgroundImage: `url('/related-post-${i + 1}.png')`,
+                  backgroundImage: `url('/related-post-${i + 1}.webp')`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
@@ -328,11 +328,11 @@ export default function page() {
                 <div
                   className={`${lora.className} flex flex-col gap-4 sm:gap-6`}
                 >
-                  <p className="text-xs text-[#F5F5F5]">08.08.2021</p>
+                  <p className="text-xs text-background">08.08.2021</p>
                   <p className="text-base/[22px] md:text-lg/6 text-white font-bold">
                     Richird Norton photorealistic rendering as real photos
                   </p>
-                  <p className="text-xs/5 text-[#f5f5f5]">
+                  <p className="text-xs/5 text-background">
                     Progressively incentivize cooperative systems through
                     technically sound functionalities. The credibly productivate
                     seamless data.
